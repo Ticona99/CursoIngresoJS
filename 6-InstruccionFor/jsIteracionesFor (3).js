@@ -3,10 +3,9 @@ function mostrar()
 
 var repeticiones = prompt("ingrese el número de repeticiones");
 
+for(var i = 0; repeticiones > i; i++){
 
-for(var i=repeticiones; i++){
-
-	alert("Hola UTN FRA")
+	document.write("Hola UTN FRA"+"<br>")
 }
 
 }//FIN DE LA FUNCIÓN
